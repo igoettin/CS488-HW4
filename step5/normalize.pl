@@ -55,7 +55,7 @@ sub normalize{
     }
 }
 
-normalize("ALL_AML_grow.train.noaffy.tmp","normalized_train.tmp");
-normalize("ALL_AML_grow.test.noaffy.tmp","normalized_test.tmp");
+normalize("ALL_AML_grow.train.noaffy.tmp","ALL_AML_grow.train.norm.tmp");
+normalize("ALL_AML_grow.test.noaffy.tmp","ALL_AML_grow.test.norm.tmp");
 
 
