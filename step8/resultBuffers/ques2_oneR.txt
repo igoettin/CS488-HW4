@@ -1,0 +1,47 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.OneR -B 6
+Relation:     ALL_AML_gcol_class.train
+Instances:    38
+Attributes:   7072
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+ID:
+	< 27.5	-> ALL
+	>= 27.5	-> AML
+(38/38 instances correct)
+
+
+Time taken to build model: 0.08 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.03 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          14               41.1765 %
+Incorrectly Classified Instances        20               58.8235 %
+Kappa statistic                          0     
+Mean absolute error                      0.5882
+Root mean squared error                  0.767 
+Relative absolute error                126.5823 %
+Root relative squared error            151.9694 %
+Total Number of Instances               34     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.588     ALL
+                 1.000    1.000    0.412      1.000    0.583      0.000    0.500     0.412     AML
+Weighted Avg.    0.412    0.412    0.170      0.412    0.240      0.000    0.500     0.516     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+  0 20 |  a = ALL
+  0 14 |  b = AML
+

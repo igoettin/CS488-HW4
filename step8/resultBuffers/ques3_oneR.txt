@@ -1,0 +1,47 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.OneR -B 6
+Relation:     ALL_AML_gcol_class.train-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    38
+Attributes:   7071
+              [list of attributes omitted]
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+X95735_at:
+	< 994.0	-> ALL
+	>= 994.0	-> AML
+(38/38 instances correct)
+
+
+Time taken to build model: 0.05 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          38              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances               38     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     ALL
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     AML
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 27  0 |  a = ALL
+  0 11 |  b = AML
+
